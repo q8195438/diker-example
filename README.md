@@ -21,3 +21,7 @@ npm run watch
 # Terminal-3
 npm run dev
 ```
+
+## TODO
+- [ ] integrate mocha and write test example
+- [ ] integrate some tool to generate RESTful API docs
