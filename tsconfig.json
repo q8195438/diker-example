@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "lib": ["dom", "esnext"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "outDir": "build",
+    "removeComments": true,
+    "rootDir": "./",
+    "inlineSourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "plugins": [
+      { "name": "tslint-language-service",
+        "alwaysShowRuleFailuresAsWarnings": false,
+        "ignoreDefinitionFiles": true,
+        "configFile": "./tslint.json",
+        "disableNoUnusedVariableRule": false,
+        "supressWhileTypeErrorsPresent": false,
+        "mockTypeScriptVersion": false
+      }
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*",
+    "config/*",
+    "migrations/*",
+    "knexfile.ts"
+  ]
+}

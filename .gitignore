@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+build
+.env
+coverage
+docs
+src/types

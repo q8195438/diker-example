@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: db_diker_example
+    ports:
+      - 54321:5432
+    environment:
+      - POSTGRES_DB=dev
+      - POSTGRES_USER=dev
+      - POSTGRES_PASSWORD=dev

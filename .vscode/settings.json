@@ -1,0 +1,20 @@
+{
+    "search.exclude": {
+        "node_modules": true,
+        "build": true,
+        "coverage": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        "build": true,
+        "coverage": true,
+        ".nyc_output": true,
+        "docs": true
+    },
+    "editor.tabSize": 2,
+    "cSpell.allowCompoundWords": true,
+    "tslint.autoFixOnSave": true,
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
